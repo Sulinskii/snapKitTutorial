@@ -14,6 +14,7 @@
 		68723306221C5FF7003F999A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68723304221C5FF7003F999A /* LaunchScreen.storyboard */; };
 		68723311221C5FF7003F999A /* snapKitTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68723310221C5FF7003F999A /* snapKitTutorialTests.swift */; };
 		6872331C221C5FF8003F999A /* snapKitTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6872331B221C5FF8003F999A /* snapKitTutorialUITests.swift */; };
+		86133BCC227C2F805814FF3A /* SnapKitComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86133E03BB4C322C27A08A2B /* SnapKitComponentView.swift */; };
 		94C63AA503054A0223CD89E5 /* Pods_snapKitTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E416F7514FEAF1C254850AC0 /* Pods_snapKitTutorialTests.framework */; };
 		9D53E79C696E5436706711A0 /* Pods_snapKitTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934342C951D9404D6B9EE8A7 /* Pods_snapKitTutorialUITests.framework */; };
 		DC0F985083208B2BF4EBC6D8 /* Pods_snapKitTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D72672BA094FBEA4383E67E /* Pods_snapKitTutorial.framework */; };
@@ -53,6 +54,7 @@
 		68723317221C5FF8003F999A /* snapKitTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapKitTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6872331B221C5FF8003F999A /* snapKitTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapKitTutorialUITests.swift; sourceTree = "<group>"; };
 		6872331D221C5FF8003F999A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86133E03BB4C322C27A08A2B /* SnapKitComponentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitComponentView.swift; sourceTree = "<group>"; };
 		934342C951D9404D6B9EE8A7 /* Pods_snapKitTutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snapKitTutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BC8DA3F30E27BF3BA7B655 /* Pods-snapKitTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snapKitTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-snapKitTutorial/Pods-snapKitTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		9D72672BA094FBEA4383E67E /* Pods_snapKitTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snapKitTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 				68723302221C5FF7003F999A /* Assets.xcassets */,
 				68723304221C5FF7003F999A /* LaunchScreen.storyboard */,
 				68723307221C5FF7003F999A /* Info.plist */,
+				86133E03BB4C322C27A08A2B /* SnapKitComponentView.swift */,
 			);
 			path = snapKitTutorial;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 			files = (
 				687232FE221C5FF6003F999A /* MainViewController.swift in Sources */,
 				687232FC221C5FF6003F999A /* AppDelegate.swift in Sources */,
+				86133BCC227C2F805814FF3A /* SnapKitComponentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
